@@ -1,0 +1,13 @@
+.container{
+    height: 100vh;
+    background-color: blueviolet;
+  }
+  input{
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  button{
+    display: block;
+    margin-left: 10px;
+  }
