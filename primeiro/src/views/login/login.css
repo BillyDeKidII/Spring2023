@@ -1,6 +1,9 @@
 .container{
     height: 100vh;
     background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   input{
     margin-bottom: 10px;
@@ -11,3 +14,37 @@
     display: block;
     margin-left: 10px;
   }
+  form {
+    background-color: brown;
+    width: 15rem;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+
+    gap:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  input{
+    border-radius: 7px;
+    padding: 10px;
+    display: block;
+    margin-bottom: 10px;
+    }
+  .buttonGroup{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  button{
+    border-radius: 7px;
+    width:60px;
+    cursor: pointer;
+  }
+  h1{
+    color: #fff;
+    margin-bottom: 20px;
+    }

@@ -1,10 +1,10 @@
-import Register from "./views/register"
+import Login from "./views/login"
 
 function App()
 {
   return (
     <>
-      <Register/>
+      <Login/>
     </>
   )
 }
