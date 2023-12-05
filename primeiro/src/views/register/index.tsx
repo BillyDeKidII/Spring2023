@@ -5,7 +5,7 @@ export default function Register(){
         <div className={css.container}>
 
             <form>
-                <h1>Cadastro View</h1>
+                <h1>Cadastro </h1>
                 <input type="text" placeholder='Nome'/>
                 <input type="text" placeholder='Email'/>
                 <input type="password" placeholder='Senha'/>

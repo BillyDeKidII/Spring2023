@@ -1,6 +1,6 @@
 .container{
     height: 100vh;
-    background-color: blueviolet;
+    background-color: #1c1c1c;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +15,7 @@
     margin-left: 10px;
   }
   form {
-    background-color: brown;
+    background-color: darkviolet;
     width: 15rem;
     padding-top: 20px;
     padding-bottom: 30px;
