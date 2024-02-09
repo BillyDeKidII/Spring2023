@@ -1,4 +1,6 @@
-package com.devsuperior.userdept.entities;
+package com.devsuperior.userdept.entities.User;
+
+import com.devsuperior.userdept.entities.Department;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -25,13 +27,6 @@ public class User {
     private Department department;
 
     public User() {
-    }
-
-    public User(Long id, String name, String email, Department department) {
-        this.id = id;
-        this.name = name;
-        this.email = email;
-        this.department = department;
     }
 
     public Long getId() {
